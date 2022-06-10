@@ -87,7 +87,7 @@ export default class Newsc extends Component {
     return (
         <>
         {this.searchfoo()}
-        <div className="container d-flex justify-content-end align-items-center my-3">
+        {/* <div className="container d-flex justify-content-end align-items-center my-3">
             <select className="form-select" aria-label="Default select example" style={{width: '250px'}} onChange={this.countrychange} defaultValue={"in"}>
                 <option value="in">India</option>
                 <option value="ae">United Arab Emirates</option>
@@ -123,7 +123,7 @@ export default class Newsc extends Component {
                 <option value="ua">Ukraine</option>
                 <option value="us">United States of America</option>
             </select>
-        </div>
+        </div> */}
 
         <center><h3>{this.props.Category.charAt(0).toUpperCase() + this.props.Category.slice(1)}</h3></center>
 
